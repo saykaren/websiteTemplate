@@ -12,6 +12,7 @@ const FirstPage = () =>{
         <>
             <button onClick={goBackHistory}>Back</button>
             <div>First Page</div>
+          
         </>
     );
 }

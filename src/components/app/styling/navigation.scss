@@ -12,15 +12,20 @@
     width: 15%;
     text-decoration: none;
   }
-  
-li{
+
+ 
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .activeNavigation {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
     padding: 0.5rem;
   }
-  
-  a {
-    text-decoration: none;
-    color: white;
+
+  .hiddenNavigation {
+      opacity: 0;
   }
