@@ -4,7 +4,6 @@ import './../styling/footer.scss';
 import sayKarenLogo from './../../../assets/sayKaren_Logo_transparent_7.2019.png';
 
 const Footer= ()=> (
-    <div className="footer">
         <footer
           id="footer"
           className="footerDetails"
@@ -22,7 +21,6 @@ const Footer= ()=> (
             />
           </a>
         </footer>  
-    </div>
   );
 
 export default Footer
