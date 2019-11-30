@@ -1,6 +1,6 @@
 import React from 'react';
-import './../styling/App.css';
-
+import './../styling/App.scss';
+import './../styling/footer.scss';
 import sayKarenLogo from './../../../assets/sayKaren_Logo_transparent_7.2019.png';
 
 const Footer= ()=> (

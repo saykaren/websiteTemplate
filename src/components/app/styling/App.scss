@@ -1,0 +1,34 @@
+@import './variables.scss';
+
+.App {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+  }
+  
+
+    
+  #main{
+    background-color: $secondary-color;
+    width: 85%;
+  }
+  
+  button {
+    background-color: $primary-color;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    border: solid 1px white;
+    margin: 5px;
+  }
+  
+  button:hover{
+    background-color: $highlight-color;
+    color: black;
+    border: solid 2px black;
+  }
+  

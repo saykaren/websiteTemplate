@@ -1,0 +1,26 @@
+@import './variables.scss';
+
+
+.App-header {
+    background-color: $primary-color;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    width: 15%;
+    text-decoration: none;
+  }
+  
+li{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }

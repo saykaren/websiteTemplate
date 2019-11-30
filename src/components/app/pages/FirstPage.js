@@ -2,7 +2,7 @@ import React from 'react';
 import {useHistory} from 'react-router';
 
 const FirstPage = () =>{
-    const history = {useHistory}
+    const history = useHistory();
 
     const goBackHistory = () =>{
         history.goBack();
