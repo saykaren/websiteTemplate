@@ -12,9 +12,7 @@ const App = () => {
   return (
     <Router>
       <div className="App">
-        <header className="App-header"> 
           <Hamburger />
-        </header>
         <section id="main">
           <Switch>
             <Route exact path="/" />

@@ -13,18 +13,20 @@ const Hamburger = () =>{
     let ham2ClassName = "hamburger2";
     let ham3ClassName = "hamburger3";
     let navigationList = "hiddenNavigation";
+    let appHeaderNonActive = "App-header-nonActive";
 
     if(navigation === true){
         ham1ClassName = "changehamburger1";
         ham2ClassName = "changehamburger2";
         ham3ClassName = "changehamburger3";
         navigationList = "activeNavigation";
+        appHeaderNonActive = "App-header-active"
     }
 
  
  
     return(
-        <header className="App-header"> 
+        <header className={appHeaderNonActive}> 
             <div className="hamContainer" onClick={activateNavigation}>
                 <div className={ham1ClassName}></div>
                 <div className={ham2ClassName}></div>
