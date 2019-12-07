@@ -19,9 +19,10 @@ const App = () => {
             <Route exact path="/Firstpage" component={FirstPage}/>
             <Route exact path="/Secondpage" component={SecondPage} />
           </Switch>
+          <Footer />
         </section>
       </div>
-      <Footer />
+
     </Router>
   );
 }
